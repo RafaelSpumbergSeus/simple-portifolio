@@ -2,21 +2,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primary-bg-color: #7f8791;
-  --primary-accent: #284449;
-  --secondary-accent: #351110;
+ /* Backgrounds */
+  --primary-bg-color: #f4f7fb;
+  --white-color: #ffffff;
 
-  --main-text-color: #0c1618;
-  --supportive-text-color: #242d2f;
-  --gray-text-color: #565a5b;
+  /* Primary accent (blue) */
+  --primary-accent: #0f766e; /* blue-600 */
+  --primary-accent-soft: #dbeafe;
 
-  --white-color: #fff;
-  --gray-color: #e9e8e8;
-  --gray-color-2: #c0c0c0;
-  --gray-color-3: #e6e6e6;
+  /* Secondary accent (teal/green) */
+  --secondary-accent: #0f766e; /* teal-700 */
 
+  /* Text */
+  --main-text-color: #0f172a;   /* slate-900 */
+  --supportive-text-color: #334155; /* slate-600 */
+  --gray-text-color: #64748b;
+
+  /* Grays */
+  --gray-color: #e5e7eb;
+  --gray-color-2: #cbd5e1;
+  --gray-color-3: #f1f5f9;
+
+  /* Preloader */
   --color-preloader-bg: var(--white-color);
-  --color-dots: #1a1a1a;
+  --color-dots: var(--primary-accent);
 }
 
 /* Common styles */
